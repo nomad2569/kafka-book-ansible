@@ -1,3 +1,3 @@
-brokerid: "{{ inventory_hostname | regex_search('(peter-kafka0[1-9]\\.foo\\.bar)') | regex_replace('\\.foo\\.bar', '') | regex_replace('^peter-kafka0', '') }}"
-zookeeperinfo: peter-zk01.foo.bar:2181,peter-zk02.foo.bar:2181,peter-zk03.foo.bar:2181
+brokerid: "{{ inventory_hostname | regex_search('(nety-private.kafka0[1-9]\\.unipus-dev\\.com)') | regex_replace('\\.unipus-dev\\.com', '') | regex_replace('^nety-private.kafka0', '') }}"
+zookeeperinfo: nety-private.zk01.unipus-dev.com:2181,nety-private.zk02.unipus-dev.com:2181,nety-private.zk03.unipus-dev.com:2181
 dir_path: /data/kafka-logs

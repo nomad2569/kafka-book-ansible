@@ -1,12 +1,12 @@
 [zkhosts]
-peter-zk01.foo.bar
-peter-zk02.foo.bar
-peter-zk03.foo.bar
+nety-private.zk01.unipus-dev.com
+nety-private.zk02.unipus-dev.com
+nety-private.zk03.unipus-dev.com
 
 [kafkahosts]
-peter-kafka01.foo.bar
-peter-kafka02.foo.bar
-peter-kafka03.foo.bar
+nety-private.kafka01.unipus-dev.com
+nety-private.kafka02.unipus-dev.com
+nety-private.kafka03.unipus-dev.com
 
 [kerberoshosts]
-peter-zk01.foo.bar
+nety-private.zk01.unipus-dev.com

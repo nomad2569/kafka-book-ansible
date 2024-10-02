@@ -1,11 +1,11 @@
 ---
-- hosts: peter-zk03.foo.bar
+- hosts: nety-private.zk03.unipus-dev.com
   become: true
   connection: ssh
   vars:
     - kafkaversion: 2.6.0
     - brokerid: 4
-    - zookeeperinfo: peter-zk01.foo.bar:2181,peter-zk02.foo.bar:2181,peter-zk03.foo.bar:2181
+    - zookeeperinfo: nety-private.zk01.unipus-dev.com:2181,nety-private.zk02.unipus-dev.com:2181,nety-private.zk03.unipus-dev.com:2181
     - dir_path: /data/kafka-logs
   roles:
     - common
